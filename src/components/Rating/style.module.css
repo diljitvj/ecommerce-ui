@@ -1,0 +1,16 @@
+.reviewwrapper {
+  display: inline-block;
+}
+.star {
+  margin-right: 4px;
+}
+.star:last-child {
+  margin-right: 0;
+}
+.star.selected {
+  fill: var(--primary);
+}
+.reviews {
+  font-size: 12px;
+  color: #4a4a4a;
+}

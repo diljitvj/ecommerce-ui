@@ -1,0 +1,28 @@
+.product__header_wrapper {
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.section:last-child {
+  margin-bottom: 0;
+}
+.type {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.rating {
+  margin-left: auto;
+}
+.name {
+  font-size: 24px;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.price {
+  color: var(--text-secondary);
+  font-size: 16px;
+}

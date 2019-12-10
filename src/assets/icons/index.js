@@ -119,4 +119,40 @@ const Logo = () => (
   </svg>
 );
 
-export { LeftArrow, RightArrow, Logo };
+const Star = ({ classname = "", selected = false }) => (
+  <svg
+    width="14px"
+    height="13px"
+    viewBox="0 0 14 13"
+    version="1.1"
+    className={classname}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title>Star Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <g
+      id="PDP---Desktop"
+      stroke="none"
+      stroke-width="1"
+      fill={selected ? "var(--primary)" : "none"}
+      fill-rule="evenodd"
+    >
+      <g
+        id="PDP-D"
+        transform="translate(-351.000000, -215.000000)"
+        stroke="#7DC242"
+      >
+        <g id="Group-13" transform="translate(50.000000, 185.000000)">
+          <g id="Reviews" transform="translate(229.000000, 30.000000)">
+            <path
+              d="M82.4504313,11.7491112 L81.7914575,7.90699953 L84.582915,5.18600094 L80.7252156,4.6254444 L79,1.12977573 L77.2747844,4.6254444 L73.417085,5.18600094 L76.2085425,7.90699953 L75.5495687,11.7491112 L79,9.93511213 L82.4504313,11.7491112 Z"
+              id="Star-Copy-4"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+);
+
+export { LeftArrow, RightArrow, Logo, Star };

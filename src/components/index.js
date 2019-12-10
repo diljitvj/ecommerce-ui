@@ -1,3 +1,4 @@
 import Button from "./Button";
+import Rating from "./Rating";
 
-export { Button };
+export { Button, Rating };

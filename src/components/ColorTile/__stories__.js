@@ -6,7 +6,7 @@ import ColorTile from ".";
 import "../../styles/common.css";
 
 storiesOf("Components|Color Tile", module)
-  .add("Single", () => {
+  .add("Single Selected", () => {
     return (
       <div>
         <ColorTile
